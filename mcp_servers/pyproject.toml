@@ -1,0 +1,14 @@
+[project]
+name = "mcp-servers"
+version = "0.1.0"
+description = "MCP服务器集合：包含桌面文件统计器和中日翻译工具"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp>=1.12.2",
+]
+
+[project.scripts]
+txt-counter = "txt_counter:main"
+cn-jp-translator = "cn_jp_language_translate:main"

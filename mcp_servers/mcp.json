@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "mcp_txt_counter": {
+      "command": "conda",
+      "args": [
+        "run",
+        "-n",
+        "python312",
+        "python",
+        "/Users/r_wang/Documents/study/AI_study/mcp_servers/scripts/txt_counter.py"
+      ],
+      "cwd": "/Users/r_wang/Documents/study/AI_study/mcp_servers"
+    },
+    "mcp_cn_jp_languag": {
+      "command": "conda",
+      "args": [
+        "run",
+        "-n",
+        "python312",
+        "python",
+        "/Users/r_wang/Documents/study/AI_study/mcp_servers/scripts/cn_jp_language_translate.py"
+      ],
+      "cwd": "/Users/r_wang/Documents/study/AI_study/mcp_servers"
+    }
+  }
+}
