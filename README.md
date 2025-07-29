@@ -21,7 +21,7 @@ AI_study/
     ├── .venv/            # 虚拟环境目录
     ├── __pycache__/      # Python缓存目录
     └── scripts/          # 脚本目录
-        ├── cn_jp_language_translate.py  # 中日翻译服务器
+        ├── multilingual_translator.py  # 多语言翻译服务器
         └── txt_counter.py               # 桌面文件统计器脚本
 ```
 
@@ -30,7 +30,11 @@ AI_study/
 实现了以下 MCP 服务器：
 
 1. **桌面 TXT 文件统计器** - 统计和管理桌面上的文本文件
-2. **中日翻译工具** - 智能的中日双向翻译服务
+2. **多语言翻译工具** - 智能的多语言翻译服务
+   - 中文 → 日语 + 英语（双语翻译）
+   - 日文 → 中文 + 英语（双语翻译）
+   - 英语 → 中文 + 日语（双语翻译）
+   - 其他语言 → 中文 + 日语 + 英语（三语翻译）
 
 详细说明请查看 [mcp_servers/README.md](mcp_servers/README.md)
 
